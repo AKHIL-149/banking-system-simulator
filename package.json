@@ -1,0 +1,20 @@
+{
+  "name": "banking-system-simulator",
+  "version": "1.0.0",
+  "description": "Real-time event-driven banking platform with microservices architecture",
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "libs/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Services ready to be built'",
+    "build": "echo 'Build script ready'",
+    "test": "echo 'Tests ready'"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
